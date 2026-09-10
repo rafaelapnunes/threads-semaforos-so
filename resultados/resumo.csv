@@ -1,0 +1,4 @@
+variante,descricao,rodadas,tempo_medio_s,tempo_desvio_s,rodadas_corretas,rodadas_com_falha,taxa_falhas_pct,media_falhas_insercao,media_falhas_remocao,media_entregas_duplicadas,media_leituras_invalidas,media_itens_perdidos
+A,so mutex (sem controle de fluxo),10,0.082326,0.013228,0,10,100.0,1286.3,1288.4,0.0,0.0,0.0
+B,contadores sem mutex (sem exclusao mutua),10,0.069038,0.001127,0,10,100.0,0.0,0.0,2076.3,0.0,2076.3
+C,contadores + mutex (solucao completa),10,0.128487,0.003362,10,0,0.0,0.0,0.0,0.0,0.0,0.0
